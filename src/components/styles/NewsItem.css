@@ -1,0 +1,23 @@
+.news-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+}
+
+.news-item .icon {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.news-item .text {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.news-item .text:hover {
+  text-decoration: underline;
+}
